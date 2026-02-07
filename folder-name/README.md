@@ -1,1 +1,1 @@
-
+Variant Call Format (VCF) files contain somatic single nucleotide variants and small insertions/deletions identified by comparing each tumour sample with its matched normal. Variants are reported using hg38 genomic coordinates and include standard annotation fields describing genomic position, reference and alternate alleles, and quality metrics. These VCF files serve as the primary input for downstream neoantigen prediction analyses.
