@@ -1,6 +1,7 @@
 # MuPeXi-for-neoepitope-analysis
 
 Introduction
+
 Tumour neoantigens are peptides derived from somatic mutations that can be presented on major histocompatibility complex (MHC) molecules and recognised by T cells. Due to their tumour specificity, neoantigens represent promising targets for cancer immunotherapy. In this study, neoantigen prediction was performed on four skin tumour samples (WD06, WD13, WD14 and WD22) using MuPeXi. Somatic variants were analysed against matched normal samples, focusing on HLA-A02:01 and HLA-A24:02 alleles and peptide lengths of 8–11 amino acids. The analysis aimed to quantify tumour neoantigen burden, identify strong tumour-specific neoantigens, and assess whether any neoantigens are shared across tumours.
 The VCFs (the VCF files of four skin tumour samples, namely WD06, WD13, WD14, WD22, with somatic mutations called against the matched normal reported with the coordinates in the hg38 format). are avaliable in the folder uploaded separately in this reporsitory.
 The outputs : log and MuPeXi files have been uploaded separately in folder 2.
