@@ -1,0 +1,37 @@
+
+        # VERSION:  MuPeXI 1.2.0
+        # CALL:     /tools/src/MuPeXI-1.1/MuPeXI/MuPeXI.py -c /tools/src/MuPeXI-1.1/config.ini -w -M -v /var/www/webface/tmp/server/MuPeXI-1.1/69876B710024A12349823F87/file.0 -a HLA-A02:01,HLA-A24:02
+        # DATE:     Saturday 07 of February 2026
+        # TIME:     17:58:36
+        # PWD:      /net/urban/var/www/webface/tmp/server/MuPeXI-1.1/69876B710024A12349823F87
+
+        ----------------------------------------------------------------------------------------------------------
+                                                        MuPeX
+        ----------------------------------------------------------------------------------------------------------
+
+          Reading protein reference file:            Found 102915 sequences, with 11278521 [9]mers
+                                                           of which 11278521 were unique peptides
+          Reading VEP file:                          Found 7434 irrelevant mutation consequences which were discarded
+                                                     Found 2297 missense variant mutation(s) 
+                                                           0 insertion(s)
+                                                           11 deletion(s)
+                                                           196 frameshift variant mutation(s)
+                                                     In 790 genes and 2326 transcripts
+          Checking peptides:                         730 peptides matched a normal peptide. 
+                                                     4 peptides included unsupported symbols (e.g. *, X, U) and were discarded 
+          Final Result:                              26253 potential mutant peptides
+          MuPeX Runtime:                             0:09:09.483057
+
+        ----------------------------------------------------------------------------------------------------------
+                                                        MuPeI
+        ----------------------------------------------------------------------------------------------------------
+
+          Reading through MuPex file:                Found 26253 peptides of which 8983 were unique
+          Detecting HLA alleles:                     Detected the following 2 HLA alleles:
+                                                        HLA-A02:01,HLA-A24:02
+                                                        of which 2 were unique
+          Running NetMHCpan 4.0:                     Analyzed 2 HLA allele(s)
+                                                     NetMHCpan runtime: 0:01:15.110622
+          MuPeI Runtime:                             0:06:09.995986
+          TOTAL Runtime:                             0:16:10.346878
+          
